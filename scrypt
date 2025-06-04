@@ -1,0 +1,26 @@
+# LR2
+СКРИПТ
+echo off
+md Tabolov
+cd Tabolov
+md Ruslan
+cd Ruslan
+md Vladimirovich
+pause
+cd Vladimirovich
+echo > lab2.txt
+cd ..
+cd ..
+echo > 30072004.txt
+pause
+cd ..
+del Tabolov /S /Q /F
+pause
+cd Tabolov
+cd Ruslan
+rd Vladimirovich
+cd ..
+rd Ruslan
+cd ..
+rd Tabolov
+pause
